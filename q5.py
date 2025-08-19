@@ -1,5 +1,9 @@
 x=int(input("enter a number: "))
+sum=0
 for i in range (1,x+1):
-  if i%2 == 0:
-    print(i, end=' ')
+  sum+=i
+
+print(sum)
+  
+
     
